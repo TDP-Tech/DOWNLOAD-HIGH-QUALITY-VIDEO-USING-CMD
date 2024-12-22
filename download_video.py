@@ -53,8 +53,8 @@ def download_video(video_url, output_path="E:\\DOWNLOADED CMD VIDEOS", output_fi
 # Example usage
 if __name__ == "__main__":
     video_url = input("Enter the YouTube video URL: ").strip()
-    output_folder = input("Enter the folder to save the video (default: 'E:\\DOWNLOADED CMD VIDEOS'): ").strip()
-    output_folder = output_folder if output_folder else "E:\\DOWNLOADED CMD VIDEOS"
+    output_folder = input("Enter the folder to save the video (default: 'downloads'): ").strip()
+    output_folder = output_folder if output_folder else "downloads"
     
     output_filename = input("Enter the desired output video filename (default: 'final_video.mp4'): ").strip()
     output_filename = output_filename if output_filename else "final_video.mp4"
